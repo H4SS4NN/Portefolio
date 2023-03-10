@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+}
+body{
+    font-family: 'Tilt Warp', cursive;
+    background-color: black;
+    color: white;
+}
+
+/* --------------------------navbar------------------------------------------ */
+
+
+.menu{
+    display: flex;
+
+    justify-content: space-between;
+    
+
+    
+    
+}
+
+    
+ .menu2{
+    padding: 5px;
+    border: 3px solid ;
+    background-color: black;
+    margin-right: 40px;
+    border-radius: 20px;
+    margin-top: 20px;
+    animation: sabouge 2s infinite;
+ }
+ .menu2:hover{
+    padding: 5px;
+    border: 3px solid ;
+   
+    margin-right: 40px;
+    border-radius: 20px;
+   
+    transition: 0,1s;
+    animation: sabouge 0s ;
+    
+ }
+.menua{
+    display: flex;;
+    padding:20px;
+    border-radius: 10px;
+    transition: 1s;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: 'Tilt Warp', cursive;
+
+    
+}
+.menua:hover{
+    background-color:orange ;
+}
+
+  
+@keyframes sabouge{
+
+    0%{
+        transform: translateY(0px);
+    }
+
+
+    50%{
+        transform: translateY(10px);
+    }
+
+
+
+    100%{
+        transform: translateY(0px);
+    }
+
+
+
+
+}
+.signup
+{
+    transition-duration: 1s;
+    font-family: 'Tilt Warp', cursive;
+    border-radius: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+
+}
+.LOGO{
+    font-size:50px;
+    margin-top: 0px;
+   
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+
+}
+.LOGO img{
+    width:470px;
+    
+    transform: rotate(-50deg);
+
+}
+
+
+/* ___________________________________________________-TITRE PRINCIPALE AVEC PROFIL HASSAN */
+
+.titreprincipale{
+
+    font-size: 30px;
+    margin: 40px;
+    background-color: orange;
+    width: 320px;
+    box-shadow: 10px 10px 0px 0px white;
+   
+
+
+}
+
+.titreprincipale button{
+    background-color : orange;
+    font-family: 'Tilt Warp', cursive;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.hassan{
+    position:absolute;
+    z-index: -1;
+    left: 35%;    
+    top: 15%;
+    border-radius: 20px;
+}
+/* _______________________________Premier block __________________________________________________ */
+.premierblock{
+    
+    background-color: orange;
+    display: flex;
+
+    
+    border-right: 6px solid white;
+    border-bottom: 6px solid white;
+    padding: 20px;
+    width:360px;
+    margin-bottom:0px ;
+    transition-duration: 1s;
+    position: absolute;
+
+    
+}.paragraphegauche{
+    width: 100%;
+}
+.premierblocki{
+    position: absolute;
+    background-color: orange;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-right: 6px solid white;
+    border-bottom: 6px solid white;
+    padding: 20px;
+    width:1000px;
+    margin-bottom:0px ;
+    transition-duration: 1s;
+
+    
+}
+.premierblock button{
+    border: none ;
+    display: flex;
+    margin-top: 60%;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #2CAAE2;
+    align-items: center;
+    cursor:pointer;
+    margin-top: 20px;
+    margin-left: 40px;;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    transition-duration: 1s;
+
+
+   
+}
+.premierblocki button{
+    border: none ;
+    display: flex;
+    margin-top: 60%;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #2CAAE2;
+    align-items: center;
+    cursor:pointer;
+    margin-top: 20px;
+    margin-left: 40px;;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    transition-duration: 1s;
+
+    
+   
+}
+/* .premierblock:hover{
+    transition: 1s;
+    background-color: #F6E148;
+    display: flex;
+    padding: 20px;
+    margin-bottom:0px ;
+    width:700px;
+  
+   
+
+} */
+.text-apparait{
+    display: none;
+}
+.text-caché{
+    transition-delay:1s;
+    transition-duration: 1s;
+    display: none;
+    width: 100%;
+    height: auto;
+   
+
+}
+.text-affiche{
+    margin: 50px;
+    transition-duration: 1s;
+   
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.paragraphegauche{
+    width:580px;
+}
+.Img{
+    width:50%;
+    margin: 100px;;
+}
+
+
+
+.premiertitre{
+    font-size:60px;
+    color:white;
+    
+}
+h2{
+    color: white;
+}
+
+.signup:hover{
+    transition-duration: 1s;
+    color: #2CAAE2;
+    background-color: white;
+}
+
+
+.box2{
+    height: 900px;
+    margin-top: 0px;
+
+}
+
+.testbouton ::backdrop{
+    width: 200px;
+    height:20px;
+    background-color: black ;
+
+}
+.testbouton{
+    width: 85px;
+    height: 90px;
+    background-color: white;
+    padding: 20px;
+
+    justify-content: center;
+
+    border-radius: 100%;
+    margin: 30px;
+}
+.testbouton::before{
+    content:"";
+    width: 10px;
+    height: 1000px;
+    background-color: black;
+    display:block;
+    text-align: center;
+}
+
+.positionampoule{
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+
+
+
+
+
+
+.box-formulaire{
+    padding: 80px;
+    background-color: orange;
+    
+    width: 400px;
+    
+}
+.fin{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+}
